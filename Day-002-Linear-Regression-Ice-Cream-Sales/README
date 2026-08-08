@@ -1,0 +1,82 @@
+# 🍦 Day 002 - Ice Cream Sales Prediction using Linear Regression
+
+## 📌 Overview
+
+This project is part of my **100 DAYS ML CHALLENGE** journey.
+
+In this project, I use **Simple Linear Regression** to analyze the relationship between temperature and ice cream sales/profits and build a model to predict sales based on temperature.
+
+## 🎯 Objective
+
+The main objective is to understand how changes in temperature influence ice cream sales and use Linear Regression to make predictions.
+
+## 📂 Dataset
+
+**Dataset:** Ice Cream Sales - Temperatures
+
+### Features
+
+| Feature | Description |
+|---|---|
+| `Temperature` | Temperature recorded for the day |
+| `Ice Cream Profits` | Ice cream sales/profit corresponding to the temperature |
+
+## 🤖 Machine Learning Algorithm
+
+**Simple Linear Regression**
+
+
+::contentReference[oaicite:0]{index=0}
+
+
+The model learns the relationship between temperature and ice cream profits and uses this relationship to make predictions.
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
+
+## 🚀 Workflow
+
+1. Import required libraries
+2. Load the dataset
+3. Explore the dataset
+4. Check correlation
+5. Visualize the relationship
+6. Split the data into training and testing sets
+7. Train the Linear Regression model
+8. Make predictions
+9. Visualize the regression line
+10. Evaluate the model
+
+## 📊 Visualization
+
+The project uses a scatter plot to visualize the relationship between:
+
+**Temperature → Ice Cream Profits**
+
+A regression line is then fitted to the data.
+
+## 📈 Model Evaluation
+
+The model can be evaluated using:
+
+- R² Score
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+
+## 📁 Project Structure
+
+```text
+Day-02-Linear-Regression-Ice-Cream-Sales/
+│
+├── Ice Cream Sales - temperatures.csv
+├── Linear_Regression_Ice_Cream.ipynb
+├── linear_regression.py
+├── output.png
+└── README.md
