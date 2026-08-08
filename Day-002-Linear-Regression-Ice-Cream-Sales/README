@@ -70,13 +70,5 @@ The model can be evaluated using:
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
 
-## 📁 Project Structure
 
-```text
-Day-02-Linear-Regression-Ice-Cream-Sales/
-│
-├── Ice Cream Sales - temperatures.csv
-├── Linear_Regression_Ice_Cream.ipynb
-├── linear_regression.py
-├── output.png
-└── README.md
+
