@@ -1,35 +1,47 @@
-# 🍦 Day 002 - Ice Cream Sales Prediction using Linear Regression
+# 🍦 Day 02 - Ice Cream Sales Prediction using Linear Regression
 
 ## 📌 Overview
 
-This project is part of my **100 DAYS ML CHALLENGE** journey.
+This project is part of my **100 Days ML Challenge**, where I build and document Machine Learning projects consistently.
 
-In this project, I use **Simple Linear Regression** to analyze the relationship between temperature and ice cream sales/profits and build a model to predict sales based on temperature.
+In this project, I use **Simple Linear Regression** to analyze the relationship between **temperature** and **ice cream profits** and build a model that predicts ice cream profits based on temperature.
+
+---
 
 ## 🎯 Objective
 
-The main objective is to understand how changes in temperature influence ice cream sales and use Linear Regression to make predictions.
+The objective of this project is to understand how temperature affects ice cream profits and use Linear Regression to make predictions.
+
+---
 
 ## 📂 Dataset
 
-**Dataset:** Ice Cream Sales - Temperatures
+**Dataset:** `Ice Cream Sales - temperatures.csv`
+
+The dataset contains temperature observations along with the corresponding ice cream profits.
 
 ### Features
 
 | Feature | Description |
 |---|---|
 | `Temperature` | Temperature recorded for the day |
-| `Ice Cream Profits` | Ice cream sales/profit corresponding to the temperature |
+| `Ice Cream Profits` | Ice cream profits corresponding to the temperature |
+
+### Target Variable
+
+`Ice Cream Profits`
+
+---
 
 ## 🤖 Machine Learning Algorithm
 
-**Simple Linear Regression**
+### Simple Linear Regression
 
+Linear Regression is used to model the relationship between the independent variable (**Temperature**) and the dependent variable (**Ice Cream Profits**).
 
-::contentReference[oaicite:0]{index=0}
+The model learns a linear relationship from the training data and uses it to predict profits for new temperature values.
 
-
-The model learns the relationship between temperature and ice cream profits and uses this relationship to make predictions.
+---
 
 ## 🛠️ Technologies Used
 
@@ -40,35 +52,78 @@ The model learns the relationship between temperature and ice cream profits and 
 - Scikit-learn
 - Jupyter Notebook
 
-## 🚀 Workflow
+---
+
+## 🚀 Project Workflow
 
 1. Import required libraries
 2. Load the dataset
 3. Explore the dataset
-4. Check correlation
-5. Visualize the relationship
-6. Split the data into training and testing sets
+4. Check correlations
+5. Visualize the relationship between temperature and profits
+6. Split the dataset into training and testing sets
 7. Train the Linear Regression model
 8. Make predictions
 9. Visualize the regression line
-10. Evaluate the model
+10. Evaluate model performance
+
+---
 
 ## 📊 Visualization
 
-The project uses a scatter plot to visualize the relationship between:
+A scatter plot is used to visualize the relationship between:
 
 **Temperature → Ice Cream Profits**
 
-A regression line is then fitted to the data.
+The Linear Regression model is then used to fit a regression line through the data.
+
+---
 
 ## 📈 Model Evaluation
 
-The model can be evaluated using:
+The model performance can be evaluated using:
 
 - R² Score
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
 
+---
 
+## 📚 Key Learnings
 
+Through this project, I practiced:
+
+- Simple Linear Regression
+- Correlation Analysis
+- Data Visualization
+- Train-Test Split
+- Model Training
+- Prediction
+- Model Evaluation
+
+---
+
+## 🔮 Future Improvements
+
+- Implement Polynomial Regression
+- Compare multiple regression algorithms
+- Build an interactive Streamlit application
+- Deploy the prediction model
+- Add additional features for better predictions
+
+---
+
+## 👨‍💻 Author
+
+**Shaik Yasar Malik**
+
+Machine Learning | Artificial Intelligence | Python
+
+---
+
+### 🚀 100 Days ML Challenge
+
+**Day 02 / 100 — Completed ✅**
+
+⭐ Building Machine Learning projects every day.
