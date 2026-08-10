@@ -116,7 +116,7 @@ Through this project, I practiced:
 ## 📁 Project Structure
 
 ```text
-Day-005-Multiple-Linear-Regression-House-Price-Prediction/
+Day-004-Multiple-Linear-Regression-House-Price-Prediction/
 │
 ├── house_price.csv
 ├── house_price.py
