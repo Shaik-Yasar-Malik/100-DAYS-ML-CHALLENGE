@@ -1,6 +1,6 @@
-# 🏦 Day 011 - Loan Approval Prediction using Random Forest
+# 🏦 Day 012 - Loan Approval Prediction using Random Forest
 
-Welcome to **Day 011 of my 100 DAYS OF ML CHALLENGE 🚀**
+Welcome to **Day 012 of my 100 DAYS OF ML CHALLENGE 🚀**
 
 This project focuses on predicting **loan status** using the **Random Forest Classifier**.
 
